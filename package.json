@@ -1,0 +1,21 @@
+{
+	"name": "socialmedia-mern-project",
+	"version": "1.0.0",
+	"description": "Simply submit single post contains publisher, title, dialog, tags and photos on its platform about what happened in their life",
+	"main": "index.js",
+	"scripts": {
+		"server": "node index",
+		"start": "nodemon index"
+	},
+	"keywords": [],
+	"author": "Jerry Li",
+	"license": "ISC",
+	"dependencies": {
+		"apollo-server": "^2.19.0",
+		"bcryptjs": "^2.4.3",
+		"graphql": "^15.4.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.10.16",
+		"nodemon": "^2.0.6"
+	}
+}
