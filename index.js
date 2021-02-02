@@ -25,7 +25,7 @@ mongoose
 	//Without 'useUnifiedTopology: true,' will cause => DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version.
 	.then(() => {
 		console.log('MongoDB Connected');
-		return server.listen({ port: Port });
+		return server.listen({ port: PORT });
 		// return server.listen({ port: 5000 });
 		// * -> this is for localhost:5000
 	})
